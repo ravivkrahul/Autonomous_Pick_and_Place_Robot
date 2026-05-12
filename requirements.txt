@@ -1,0 +1,24 @@
+# Pip dependencies for the Autonomous Robot Build Series.
+# On a Raspberry Pi, run setup.sh instead — it installs system deps
+# (picamera2, libzbar0, i2c-tools, ...) plus everything below.
+#
+# This file alone is enough to run the *offline* image / data-plotting
+# scripts on a regular laptop (Linux / macOS / Windows).
+
+numpy<2.0
+opencv-python
+matplotlib
+pandas
+scipy
+pyserial
+pyzbar
+Pillow
+tqdm
+imutils
+
+# Pi-only (skip on a laptop — pip will fail gracefully or these will be unused):
+# gpiozero
+# RPi.GPIO
+# adafruit-circuitpython-bno055
+# adafruit-blinka
+# picamera2  (apt-only on Bookworm: sudo apt install python3-picamera2)
