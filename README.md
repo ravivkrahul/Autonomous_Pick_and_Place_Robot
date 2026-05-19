@@ -1,6 +1,6 @@
 # Autonomous Pick and Place Robot
 
-[![YouTube](https://img.shields.io/badge/YouTube-Build%20Series-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLdM7LpLw5C1EBv95E1sSbJ2eZQ9Ft
+[![YouTube](https://img.shields.io/badge/YouTube-Build%20Series-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=eJz2A6c7ycs&list=PLdM7LpLw5C1EBv95E1sSbJ2eZQ9Ftlzfo)
 
 End-to-end build of a small autonomous ground robot — perception, localization, and low-level control — on a **Raspberry Pi 4 + PiCamera 2 + Arduino Nano (BNO055 IMU)** stack. Built for the ENPM 701 robot platform at the University of Maryland.
 
